@@ -1,0 +1,30 @@
+body{
+    background-color: #9d8edf;
+}
+
+.nav-container{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(13, 14, 13);
+    border-radius: 15px;
+    background: linear-gradient(to right, #aa75a1 0%, #42ff1c 51%, #949206 100%);
+}
+
+.main-container{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.child-container {
+    background: yellow;
+    padding: 10px;
+    border-radius: 15px;
+    width: 300px;
+    margin: 10px;
+    gap: 5px;
+  }
